@@ -4,8 +4,8 @@ A simple RESTful API for managing e-commerce items (like Flipkart/Amazon).
 
 # Project Links
 
-GitHub Repository: https://github.com/mugunthanm2k/item-api.git
-Live Demo: Not deployed yet
+👉 GitHub Repository: https://github.com/mugunthanm2k/item-api.git
+👉 Live Demo: Not deployed yet
 
 ## Features
 - ✅ Add new items with input validation
