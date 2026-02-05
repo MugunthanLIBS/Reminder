@@ -18,7 +18,7 @@ A simple RESTful API for managing e-commerce items (like Flipkart/Amazon).
 | GET    | `/api/items`      | Get all items (bonus endpoint) |
 
 ## Input Validation Rules
-- `name`: Required, 2-100 characters
+- `name`: Required, 2-50 characters
 - `description`: Required, 10-500 characters  
 - `price`: Required, must be a valid number
 - `category`: Optional
