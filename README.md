@@ -30,9 +30,9 @@ A simple RESTful API for managing e-commerce items (like Flipkart/Amazon).
 ---
 
 ## Sample Requests
-
+```
 **Add Item:**
-```bash
+
 curl -X POST http://localhost:8080/api/items \
   -H "Content-Type: application/json" \
   -d '{
@@ -44,9 +44,8 @@ curl -X POST http://localhost:8080/api/items \
 
 **Get Item:**
 
-```bash
 curl http://localhost:8080/api/items/1
-
+```
 ---
 
 #**Quick Start (Local)**
