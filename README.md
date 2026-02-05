@@ -1,16 +1,69 @@
-# React + Vite
+# 🚀 User Management App  
+### Fully Extensible React CRUD Application  
+**Configuration-driven • Production-ready • Scalable Architecture**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-fast-yellow?logo=vite)
+![MaterialUI](https://img.shields.io/badge/MUI-7-blue?logo=mui)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-black?logo=github)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+👉 https://mugunthanm2k.github.io/User-Management-app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Overview
 
-## Expanding the ESLint configuration
+A **fully extensible, configuration-driven User Management System** built using modern React architecture.  
+Designed to demonstrate **enterprise-level CRUD architecture**, **dynamic UI generation**, and **production-ready system design**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Config-based forms • Auto validation • Dynamic tables • Scalable structure
+
+---
+
+## 📸 Demo Flow
+
+- 📝 **Add User** → Form Validation  
+- 👥 **View Users** → Dynamic Table  
+- ✏️ **Edit User** → Pre-filled Form  
+- 🗑️ **Delete User** → Confirmation Dialog  
+- ⚙️ **Extend Fields** → Auto UI + Validation + Table Update  
+
+---
+
+## ✅ Features
+
+- Full CRUD Operations  
+- Configuration-driven Forms  
+- Dynamic Table Rendering  
+- Auto Validation Engine  
+- API Abstraction Layer  
+- Loading States  
+- Error Handling  
+- Confirmation Dialogs  
+- Responsive UI  
+- Mock API Support  
+- Real Backend Support (JSON-server)  
+- GitHub Pages Compatible  
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| **Frontend** | React 19, Vite |
+| **UI** | Material-UI 7, Bootstrap 5, React-Bootstrap |
+| **API** | Axios |
+| **Backend (Mock)** | JSON-server |
+| **Deployment** | GitHub Pages |
+| **Architecture** | Config-driven CRUD |
+
+---
+
+## 🧠 Architecture
+
