@@ -56,8 +56,9 @@ A simple RESTful API for managing e-commerce items (like Flipkart/Amazon).
   - Maven 3.6+
 ```
 2.Clone & Run:
-```bash
+```
   mvn spring-boot:run
+
 ```
 3.Test APIs:
 ```
