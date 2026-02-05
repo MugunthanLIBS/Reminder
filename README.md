@@ -67,14 +67,14 @@ Designed to demonstrate **enterprise-level CRUD architecture**, **dynamic UI gen
 
 ## 🧠 Architecture
 
-fieldsConfig.js
-↓
-Dynamic Form Generator
-↓
-Validation Engine
-↓
-API Mapper
-↓
+fieldsConfig.js 
+→ 
+Dynamic Form Generator 
+→ 
+Validation Engine 
+→ 
+API Mapper 
+→ 
 Dynamic Table Renderer
 
 
@@ -98,33 +98,37 @@ Dynamic Table Renderer
         errorMessage: 'Age must be a valid number'
     }
 }
-
+```
 Step 2: Done 🎉
-
+```
 ✔ Form auto-renders
 ✔ Table auto-updates
 ✔ Validation auto-works
 ✔ API auto-maps
 ✔ No UI code changes needed
-
+```
 ---
 
-🚀 Local Setup
-📥 Clone & Install
+##🚀 Local Setup
 
+📥 Clone & Install
+```
 git clone https://github.com/YOUR_USERNAME/User-Management-app.git
 cd User-Management-app
 npm install
-
+```
 ▶️ Run with Mock API
+```
 npm run dev
-
+```
 ▶️ Run with Real Backend
+```
 npm run dev:all
-
+```
 ---
 
-🗄️ Sample db.json
+##🗄️ Sample db.json
+```js
 {
   "users": [
     {
@@ -136,10 +140,10 @@ npm run dev:all
     }
   ]
 }
-
+```
 ---
 
-📁 Project Structure
+##📁 Project Structure
 src/
 ├── api/           # API configuration
 ├── components/    # Reusable UI components
@@ -150,8 +154,8 @@ src/
 
 ---
 
-🧩 Design Decisions
-
+##🧩 Design Decisions
+```
 Hybrid UI → Material-UI + Bootstrap
 
 Mock API → GitHub Pages compatible
@@ -165,16 +169,17 @@ Clean separation of concerns
 Scalable structure
 
 Production-ready setup
-
+```
 ---
 
-🚀 Deployment
+##🚀 Deployment
+```
 npm install --save-dev gh-pages
 npm run deploy
-
+```
 ---
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Mugunthan M
 Full Stack Developer
