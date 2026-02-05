@@ -67,3 +67,118 @@ Designed to demonstrate **enterprise-level CRUD architecture**, **dynamic UI gen
 
 ## 🧠 Architecture
 
+fieldsConfig.js
+↓
+Dynamic Form Generator
+↓
+Validation Engine
+↓
+API Mapper
+↓
+Dynamic Table Renderer
+
+
+---
+
+## ⚙️ Extensibility System
+
+### ➕ Add New Field (2 Minutes)
+
+**Step 1:** Edit `src/config/fieldsConfig.js`
+
+```js
+{
+    name: 'age',
+    label: 'Age',
+    type: 'number',
+    validation: {
+        required: true,
+        minLength: 1,
+        pattern: /^[0-9]+$/,
+        errorMessage: 'Age must be a valid number'
+    }
+}
+
+Step 2: Done 🎉
+
+✔ Form auto-renders
+✔ Table auto-updates
+✔ Validation auto-works
+✔ API auto-maps
+✔ No UI code changes needed
+
+---
+
+🚀 Local Setup
+📥 Clone & Install
+
+git clone https://github.com/YOUR_USERNAME/User-Management-app.git
+cd User-Management-app
+npm install
+
+▶️ Run with Mock API
+npm run dev
+
+▶️ Run with Real Backend
+npm run dev:all
+
+---
+
+🗄️ Sample db.json
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "phone": "1234567890"
+    }
+  ]
+}
+
+---
+
+📁 Project Structure
+src/
+├── api/           # API configuration
+├── components/    # Reusable UI components
+├── config/        # Field configuration
+├── hooks/         # Custom React hooks
+├── pages/         # Page components
+└── App.jsx        # Root component
+
+---
+
+🧩 Design Decisions
+
+Hybrid UI → Material-UI + Bootstrap
+
+Mock API → GitHub Pages compatible
+
+Real API → JSON-server supported
+
+Config-driven architecture
+
+Clean separation of concerns
+
+Scalable structure
+
+Production-ready setup
+
+---
+
+🚀 Deployment
+npm install --save-dev gh-pages
+npm run deploy
+
+---
+
+👨‍💻 Author
+
+Mugunthan M
+Full Stack Developer
+
+📧 Email: your-email@example.com
+
+🔗 GitHub: https://github.com/mugunthanm2k
