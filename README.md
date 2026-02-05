@@ -66,17 +66,17 @@ Designed to demonstrate **enterprise-level CRUD architecture**, **dynamic UI gen
 ---
 
 ## 🧠 Architecture
-
+```
 fieldsConfig.js 
-→ 
+↓ 
 Dynamic Form Generator 
-→ 
+↓ 
 Validation Engine 
-→ 
+↓ 
 API Mapper 
-→ 
+↓ 
 Dynamic Table Renderer
-
+```
 
 ---
 
@@ -143,7 +143,8 @@ npm run dev:all
 ```
 ---
 
-##📁 Project Structure
+📁 Project Structure
+```txt
 src/
 ├── api/           # API configuration
 ├── components/    # Reusable UI components
@@ -151,7 +152,7 @@ src/
 ├── hooks/         # Custom React hooks
 ├── pages/         # Page components
 └── App.jsx        # Root component
-
+```
 ---
 
 ##🧩 Design Decisions
