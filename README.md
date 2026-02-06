@@ -1,16 +1,21 @@
 **Item Management System**
-<div align="center">
-![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react)
+
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react)
 https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite
 https://img.shields.io/badge/Tailwind_CSS-3.0-06B6D4?style=for-the-badge&logo=tailwindcss
 https://img.shields.io/badge/Spring_Boot-3.0-6DB33F?style=for-the-badge&logo=springboot
-https://img.shields.io/badge/Deployed_on-Railway-0B0D0E?style=for-the-badge&logo=railway
+https://img.shields.io/badge/Deployed_on-Railway-0B0D0E?style=for-the-badge&logo=railway](https://img.shields.io/badge/React-19-blue?logo=react
+https://img.shields.io/badge/Vite-fast-yellow?logo=vite
+https://img.shields.io/badge/Tailwind_CSS-3-38b2ac?logo=tailwindcss
+https://img.shields.io/badge/Spring_Boot-3-6db33f?logo=springboot
+https://img.shields.io/badge/Java-17-007396?logo=openjdk
+https://img.shields.io/badge/Deployed_on-Railway-0b0d0e?logo=railway)
 
 A modern full-stack application for managing items with React frontend and Spring Boot backend
 
 Live Demo • Backend Repository • Report Bug • Request Feature
 
-</div>
+
 ✨ Features
 Feature	Description
 📝 Create Items	Add new items with validation
