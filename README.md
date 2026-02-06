@@ -172,4 +172,3 @@ GET	/api/items/{id}	Get item by ID
   "category": "Electronics"
 }
 ```
----
