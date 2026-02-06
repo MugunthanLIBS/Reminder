@@ -1,5 +1,4 @@
-
-Item Management System
+**Item Management System**
 <div align="center">
 https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react
 https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite
