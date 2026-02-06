@@ -1,6 +1,6 @@
 **Item Management System**
 <div align="center">
-https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react
+![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react)
 https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite
 https://img.shields.io/badge/Tailwind_CSS-3.0-06B6D4?style=for-the-badge&logo=tailwindcss
 https://img.shields.io/badge/Spring_Boot-3.0-6DB33F?style=for-the-badge&logo=springboot
