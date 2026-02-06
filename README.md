@@ -12,20 +12,20 @@ A modern full-stack application for managing items with React frontend and Sprin
 👉 
 
 # 🔗 Repo 
-👉 
+👉
+
 ---
 
 # ✨ Features
 
 **Feature	Description**
 ```
--📝 Create Items	Add new items with validation
--🔍 Smart Search	Search by name or ID
--📱 Responsive Design	Works on all devices
--⚡ Fast Performance	Built with Vite
--🎨 Modern UI	Clean interface with Tailwind CSS
--✅ Real-time Updates	Automatic refresh after actions
--🖼️ Screenshots
+-📝 Create Items	  # Add new items with validation
+-🔍 Smart Search	  # Search by name or ID
+-📱 Responsive     # Design	Works on all devices
+-⚡ Fast Performance	# Built with Vite
+-🎨 Modern UI      # Clean interface with Tailwind CSS
+-✅ Real-time   # Updates	Automatic refresh after actions
 ```
 ---
 
