@@ -18,6 +18,7 @@ A modern full-stack application for managing items with React frontend and Sprin
 # ✨ Features
 
 **Feature	Description**
+```
 -📝 Create Items	Add new items with validation
 -🔍 Smart Search	Search by name or ID
 -📱 Responsive Design	Works on all devices
@@ -25,7 +26,7 @@ A modern full-stack application for managing items with React frontend and Sprin
 -🎨 Modern UI	Clean interface with Tailwind CSS
 -✅ Real-time Updates	Automatic refresh after actions
 -🖼️ Screenshots
-
+```
 ---
 
 # 🚀 Quick Start
@@ -84,7 +85,6 @@ item-management/
 
 ## 🛠️ Tech Stack
 
-**Frontend**
 ```
 React 18 - UI library with hooks
 
@@ -100,7 +100,6 @@ SweetAlert2 - Beautiful alerts
 
 ## 🔧 Configuration
 
-**Frontend**
 ```
 Edit vite.config.js to change API proxy:
 
