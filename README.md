@@ -8,10 +8,10 @@ A modern full-stack application for managing items with React frontend and Sprin
 
 ---
 
-## 🔗 Live Demo 
+# 🔗 Live Demo 
 👉 
 
-## 🔗 Repo 
+# 🔗 Repo 
 👉 
 ---
 
@@ -59,11 +59,11 @@ yarn dev
 ```
 ---
 
-# Open in browser
+**Open in browser**
 
 ```text
 http://localhost:5173
-
+```
 ---
 
 ## 📁 Project Structure
