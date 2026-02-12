@@ -19,14 +19,14 @@ This implementation follows the requirements outlined in the Secure Test Environ
 
 ---
 
-# 🔗 Live Demo 
+## 🔗Live Demo 
 👉 
 
-# 🔗 Repo 
+##🔗 Repo 
 👉 https://github.com/mugunthanm2k/STEE-React.git
 
 ---
-<table>
+<table border="0" cellpadding="8" cellspacing="0">
   <thead>
     <tr>
       <th>Frontend</th>
@@ -57,6 +57,7 @@ This implementation follows the requirements outlined in the Secure Test Environ
     </tr>
   </tbody>
 </table>
+
 
 
 ### 🚀 Features
