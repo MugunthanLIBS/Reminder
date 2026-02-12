@@ -1,4 +1,9 @@
 ## 📌 Secure Test Environment Enforcement
+
+![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite)
+![Tailwind_CSS](https://img.shields.io/badge/Tailwind_CSS-4.1-06B6D4?style=for-the-badge&logo=tailwindcss)
+
 ### 🧭 Objective
 
 The objective of this project is to simulate a secure, locked-down, auditable browser-based assessment environment for high-stakes candidate evaluations.
