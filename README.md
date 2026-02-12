@@ -26,37 +26,43 @@ This implementation follows the requirements outlined in the Secure Test Environ
 👉 https://github.com/mugunthanm2k/STEE-React.git
 
 ---
-<table border="0" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Frontend</th>
-      <th>Backend</th>
-      <th>Security</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>React (Vite)</td>
-      <td>Node.js</td>
-      <td>JWT</td>
-    </tr>
-    <tr>
-      <td>Tailwind CSS</td>
-      <td>Express.js</td>
-      <td>Session Control</td>
-    </tr>
-    <tr>
-      <td>Axios</td>
-      <td>MySQL</td>
-      <td>Focus Guard</td>
-    </tr>
-    <tr>
-      <td>Zustand</td>
-      <td>Redis</td>
-      <td>Violation Engine</td>
-    </tr>
-  </tbody>
+<table border="2" cellpadding="15" cellspacing="0" width="100%">
+  <tr>
+    <th align="center">Frontend</th>
+    <th align="center">Backend</th>
+    <th align="center">DB</th>
+  </tr>
+
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>React (Vite)</li>
+        <li>Tailwind CSS</li>
+        <li>Axios</li>
+        <li>Zustand</li>
+      </ul>
+    </td>
+
+    <td valign="top">
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>JWT Auth</li>
+        <li>API Gateway</li>
+      </ul>
+    </td>
+
+    <td valign="top">
+      <ul>
+        <li>MySQL</li>
+        <li>Redis</li>
+        <li>Session Store</li>
+        <li>Secure Logs</li>
+      </ul>
+    </td>
+  </tr>
 </table>
+
 
 
 
