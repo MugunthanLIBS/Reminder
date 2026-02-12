@@ -19,6 +19,22 @@ This implementation follows the requirements outlined in the Secure Test Environ
 
 ---
 
+# 🔗 Live Demo 
+👉 
+
+# 🔗 Repo 
+👉 https://github.com/mugunthanm2k/STEE-React.git
+
+---
+## 🧰 Tech Stack
+
+| Frontend | Backend | Security |
+|----------|---------|----------|
+| React (Vite) | Node.js | JWT |
+| Tailwind CSS | Express.js | Session Control |
+| Axios | MySQL | Focus Guard |
+
+
 ### 🚀 Features
 
 **1️⃣ Browser Enforcement**
