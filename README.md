@@ -26,13 +26,37 @@ This implementation follows the requirements outlined in the Secure Test Environ
 👉 https://github.com/mugunthanm2k/STEE-React.git
 
 ---
-## 🧰 Tech Stack
-
-| Frontend | Backend | Security |
-|----------|---------|----------|
-| React (Vite) | Node.js | JWT |
-| Tailwind CSS | Express.js | Session Control |
-| Axios | MySQL | Focus Guard |
+<table>
+  <thead>
+    <tr>
+      <th>Frontend</th>
+      <th>Backend</th>
+      <th>Security</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>React (Vite)</td>
+      <td>Node.js</td>
+      <td>JWT</td>
+    </tr>
+    <tr>
+      <td>Tailwind CSS</td>
+      <td>Express.js</td>
+      <td>Session Control</td>
+    </tr>
+    <tr>
+      <td>Axios</td>
+      <td>MySQL</td>
+      <td>Focus Guard</td>
+    </tr>
+    <tr>
+      <td>Zustand</td>
+      <td>Redis</td>
+      <td>Violation Engine</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 🚀 Features
