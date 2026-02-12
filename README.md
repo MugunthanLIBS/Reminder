@@ -9,14 +9,14 @@
 The objective of this project is to simulate a secure, locked-down, auditable browser-based assessment environment for high-stakes candidate evaluations.
 
 **The system ensures that:**
-```text
+
 - Candidates remain focused on the test window
 - Distractions and misuse are detected
 - All suspicious activities are logged
 - A complete, timestamped audit trail is maintained
 
 This implementation follows the requirements outlined in the Secure Test Environment Enforcement – Problem Definition Document.
-```
+
 ---
 
 ### 🚀 Features
@@ -24,26 +24,26 @@ This implementation follows the requirements outlined in the Secure Test Environ
 **1️⃣ Browser Enforcement**
 
 ****🔍 Focus & Tab Monitoring****
-```text
+
 - Detects tab switches (visibilitychange)
 - Detects window blur/focus loss
 - Detects multiple tabs using BroadcastChannel
 - Treats any focus loss as a violation
 - Displays immediate warning overlay
 - Increments violation counter
-```
+
 ****🔐 Fullscreen Enforcement****
-```text
+
 - Automatically enters fullscreen mode on load
 - Detects fullscreen exit attempts
 - Logs fullscreen violations
-```
+
 🚫 Copy / Paste Prevention
-```text
+
 - Prevents copy attempts
 - Prevents paste attempts
 - Logs all misuse attempts
-```
+
 
 **2️⃣ Unified Event Logging System**
 
@@ -63,7 +63,7 @@ Each event follows a structured and unified format:
 }
 ```
 ****📦 Logging Capabilities****
-```text
+
 - Logs all browser enforcement events
 - Logs fullscreen activity
 - Logs focus restoration
@@ -71,7 +71,7 @@ Each event follows a structured and unified format:
 - Persists logs in localStorage
 - Batches and sends logs to backend every 10 seconds
 - Prevents log loss during refresh/offline scenarios
-```
+
 ---
 ## 🛠 Tech Stack
 ```
@@ -102,19 +102,19 @@ npm run dev
 **4️⃣ Open in Chrome**
 
 Open the application in Google Chrome and test the following:
-```
+
 - Switch tabs
 - Open another tab of the same app
 - Minimize window
 - Attempt copy/paste
 - Exit fullscreen
-```
+
 You will see:
-```
+
 - Violation counter increment
 - Warning overlay displayed
 - Console audit logs
-```
+
 ---
 
 ## 🏗 Architecture Overview
@@ -133,28 +133,28 @@ STEE-React/
 ---
 
 ## 🔐 Security Considerations
-```
+
 - Events are timestamped and immutable once stored
 - Logs persist during refresh/offline
 - Batch submission reduces backend load
 - Multiple tab detection uses same-origin communication
 - Violations are throttled to prevent event spam
-```
+
 ---
 
 ## 📈 Future Enhancements
-```
+
 - Backend integration with Spring Boot
 - Server-side log immutability enforcement
 - Attempt termination after max violations
 - Timer-based assessment module
 - Screenshot monitoring (if allowed)
 - WebSocket real-time monitoring dashboard for employers
-```
+
 ---
 
 ## ✅ Conclusion
-```
+
 This project demonstrates how a browser-based assessment platform can enforce focus, prevent misuse, and maintain a secure, auditable testing environment using modern web APIs and React architecture.
 The implementation is modular, scalable, and production-ready for backend integration.
-```
+
