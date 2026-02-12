@@ -3,33 +3,27 @@
 
 The objective of this project is to simulate a secure, locked-down, auditable browser-based assessment environment for high-stakes candidate evaluations.
 
-The system ensures that:
-
-Candidates remain focused on the test window
-
-Distractions and misuse are detected
-
-All suspicious activities are logged
-
-A complete, timestamped audit trail is maintained
+**The system ensures that:**
+- Candidates remain focused on the test window
+- Distractions and misuse are detected
+- All suspicious activities are logged
+- A complete, timestamped audit trail is maintained
 
 This implementation follows the requirements outlined in the Secure Test Environment Enforcement – Problem Definition Document.
 
-🚀 Features
-1️⃣ Browser Enforcement
-🔍 Focus & Tab Monitoring
+---
 
-Detects tab switches (visibilitychange)
+### 🚀 Features
 
-Detects window blur/focus loss
+**1️⃣ Browser Enforcement**
 
-Detects multiple tabs using BroadcastChannel
-
-Treats any focus loss as a violation
-
-Displays immediate warning overlay
-
-Increments violation counter
+****🔍 Focus & Tab Monitoring****
+- Detects tab switches (visibilitychange)
+- Detects window blur/focus loss
+- Detects multiple tabs using BroadcastChannel
+- Treats any focus loss as a violation
+- Displays immediate warning overlay
+- Increments violation counter
 
 🔐 Fullscreen Enforcement
 
